@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>D-TOX 550</title>
+	<link rel="icon" type="image/png" href="./img/product.png">
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="./css/owl.theme.default.css" />
+	<link rel="stylesheet" href="./css/animate.css">
+	<link rel="stylesheet" href="./css/aos.css">
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css" /> 
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand logo" href="./index.html">
+			<img src="./img/logo.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/japan-flag.png" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link active" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Khuyến mãi</a>
+				<li class="dathang-2">
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Khuyến mãi</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/japan-flag.png" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.180.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>590.000 đ</p>
+							</div>
+						</div>
+						<form>
+							<input type="text" name="name" placeholder="*Tên của bạn" required autocomplete="off" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" required autocomplete="off"
+								min="9" maxlength="10" onkeypress="validate(event)" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="banner">
+		<div class="row align-items-center">
+			<div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+				<div class="img-banner">
+					<img src="./img/img-banner.png">
+				</div>
+			</div>
+			<div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+				<div class="title-banner title">
+					<h3>Những Vấn Đề Thường Gặp Về Đường Ruột</h3>
+				</div>
+				<p>
+					Những năm gần đây thì các căn bệnh về hệ tiêu hóa đang ngày càng phổ biến và không loại trừ lứa
+					tuổi, giới tính, nghề nghiệp nào cả. Bệnh không những tác động đến sức khỏe người bệnh mà còn
+					làm ảnh hưởng đến sinh hoạt hàng ngày.
+					<br><br>
+					Hệ tiêu hóa của chúng ta bao gồm những bộ phận sau đây: dạ dày, thực quản, ruột non, ruột già,
+					hậu môn, gan, túi mật,... Nếu chúng gặp vấn đề tổn thương nào đó thì con người sẽ mắc phải những
+					căn bệnh liên quan mật thiết đến đường tiêu hóa như: viêm loét, rối loạn, trào ngược, viêm đại
+					tràng, bệnh trĩ,...
+				</p>
+				<button type="button" class="see-more">Xem thêm</button>
+			</div>
+		</div>
+	</section>
+	<section class="dangerous text-center">
+		<div class="title-dangerous title">
+			<h3>Mức Độ Nguy Hiểm Không Thể Ngờ</h3>
+		</div>
+		<p>
+			Bệnh về tiêu hóa là nhóm bệnh phổ biến trong cộng đồng hiện nay. Theo các bác sĩ thì hệ tiêu hóa chính
+			là nơi dễ bị tổn thương nhất trên cơ thể và dẫn đến những căn bệnh từ mức độ nhẹ đến nặng. Không chỉ ảnh
+			hưởng đến bộ phận bị bệnh mà còn làm cho quá trình tiêu hóa thức ăn bị gián đoạn. Nếu không có hướng
+			điều trị kịp thời sẽ gây ra những hệ lụy nguy hiểm cho người bệnh.
+		</p>
+	</section>
+	<section class="process">
+		<div class="process-item row">
+			<div class="col-xl-4 col-md-4 col-sm-4 left">
+				<div class="card item-2" data-aos="flip-left" data-aos-duration="1000">
+					<img src="./img/process-2.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#2</span> Giai đoạn lây lan</h5>
+						<p class="card-text">Các bệnh nhiễm trùng đường ruột chủ yếu lây lan qua các bộ phận khác gây
+							đau đầu, hệ miễn dịch bị
+							suy yếu.
+						</p>
+					</div>
+				</div>
+				<div class="card item-3" data-aos="flip-left" data-aos-duration="1000">
+					<img src="./img/process-3.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#3</span> Ký sinh trùng phát triển</h5>
+						<p class="card-text">Bệnh ký sinh trùng đường tiêu hóa sẽ phát triển và lây lan và gây ra bệnh
+							táo bón nếu chúng ta
+							không kịp thời phát hiện và điều trị.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-4 mid">
+				<div class="card item-1" data-aos="flip-down" data-aos-duration="1000">
+					<img src="./img/process-1.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#1</span> Đối Với Cơ Thể</h5>
+						<p class="card-text">Tùy theo mức độ nặng nhẹ của bệnh về tiêu hóa mà sẽ gây ra các vấn đề về da
+							khó chịu cho cơ thể trong một khoảng thời gian khiến cuộc sống bị đảo lộn.
+						</p>
+					</div>
+				</div>
+				<div class="card item-4" data-aos="flip-up" data-aos-duration="1000">
+					<img src="./img/process-4.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#4</span> Gây tác động xấu</h5>
+						<p class="card-text">Bệnh đường ruột gây ra những tác động không tốt đến sức khỏe của người
+							bệnh, thậm chí nguy hiểm
+							đến cả tính mạng.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-md-4 col-sm-4 right">
+				<div class="card item-6" data-aos="flip-right" data-aos-duration="1000">
+					<img src="./img/process-6.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#6</span> Con đường lây lan</h5>
+						<p class="card-text">Trước khi vào cơ thể người, ký sinh có thể tồn tại xung quanh chúng ta như
+							nguồn nước, thực phẩm,
+							động vật, con người,...
+						</p>
+					</div>
+				</div>
+				<div class="card item-5" data-aos="flip-right" data-aos-duration="1000">
+					<img src="./img/process-5.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#5</span> Vấn đề phát sinh</h5>
+						<p class="card-text">Trước khi vào cơ thể người, ký sinh có thể tồn tại xung quanh chúng ta như
+							nguồn nước, thực phẩm,
+							động vật, con người,...
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="process process-mobile">
+		<img src="./img/process-center.png">
+		<div class="process-item row">
+			<div class="col-sm-6 col-xs-6 col-12">
+				<div class="card item-1 item" data-aos="fade-right" data-aos-duration="1000">
+					<img src="./img/process-1.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#1</span> Đối Với Cơ Thể</h5>
+						<p class="card-text">Tùy theo mức độ nặng nhẹ của bệnh về tiêu hóa mà sẽ gây ra các vấn đề về da
+							khó chịu cho cơ thể trong một khoảng thời gian khiến cuộc sống bị đảo lộn.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-6 col-12">
+				<div class="card item-2 item" data-aos="fade-left" data-aos-duration="1000">
+					<img src="./img/process-2.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#2</span> Giai đoạn lây lan</h5>
+						<p class="card-text">Các bệnh nhiễm trùng đường ruột chủ yếu lây lan qua các bộ phận khác gây
+							đau đầu, hệ miễn dịch bị
+							suy yếu.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-6 col-12">
+				<div class="card item-3 item" data-aos="fade-right" data-aos-duration="1000">
+					<img src="./img/process-3.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#3</span> Ký sinh trùng phát triển</h5>
+						<p class="card-text">Bệnh ký sinh trùng đường tiêu hóa sẽ phát triển và lây lan và gây ra bệnh
+							táo bón nếu chúng ta
+							không kịp thời phát hiện và điều trị.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-6 col-12">
+				<div class="card item-4 item" data-aos="fade-left" data-aos-duration="1000">
+					<img src="./img/process-4.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#4</span> Gây tác động xấu</h5>
+						<p class="card-text">Bệnh đường ruột gây ra những tác động không tốt đến sức khỏe của người
+							bệnh, thậm chí nguy hiểm
+							đến cả tính mạng.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-6 col-12">
+				<div class="card item-5 item" data-aos="fade-right" data-aos-duration="1000">
+					<img src="./img/process-5.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#5</span> Vấn đề phát sinh</h5>
+						<p class="card-text">Trước khi vào cơ thể người, ký sinh có thể tồn tại xung quanh chúng ta như
+							nguồn nước, thực phẩm,
+							động vật, con người,...
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-sm-6 col-xs-6 col-12">
+				<div class="card item-6 item" data-aos="fade-left" data-aos-duration="1000">
+					<img src="./img/process-6.png" class="card-img-top">
+					<div class="card-body">
+						<h5 class="card-title"><span>#6</span> Con đường lây lan</h5>
+						<p class="card-text">Trước khi vào cơ thể người, ký sinh có thể tồn tại xung quanh chúng ta như
+							nguồn nước, thực phẩm,
+							động vật, con người,...
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="info-product">
+		<div class="title" data-aos="fade-down" data-aos-duration="1500">
+			<h3>Bạn Cần Một Trợ Lý Đường Ruột Hoạt Động Tốt Hơn</h3>
+			<h3>
+				D-TOX 550 - <span>Trợ Lý Tuyệt Vời Dành Cho Đường Ruột Của Bạn</span>
+			</h3>
+		</div>
+		<div class="content-info">
+			<div class="row">
+				<div class="col-xl-8 col-lg-8 col-md-12 col-sm-12 col-12">
+					<div class="text-content" data-aos="fade-right" data-aos-duration="2000">
+						Với công thức chuyên biệt, viên sủi D-TOX 550 có khả năng diệt gọn ký sinh trùng tồn tại
+						trong cơ thể, thanh lọc, chống nhiễm trùng, nhuận tràng và tăng cường sức khỏe tổng quát nói
+						chung. Ngoài ra, sản phẩm được bào chế bởi nhiều hoạt chất từ tự nhiên như đu đủ, hạt bí
+						ngô, trà xanh, quán chúng, thùn mũn, củ gừng nên rất an toàn cho sức khỏe người dùng. Hiện
+						tại thì sản phẩm đã được nghiên cứu bởi các chuyên gia hàng đầu.<br><br>
+						Đây là một sản phẩm thanh lọc tiêu hóa với cơ chế bảo vệ đường ruột vì có khả năng diệt sạch
+						100% ký sinh trùng mà không gây ra bất kỳ tác dụng phụ nào. Ngoài ra, sản phẩm còn hỗ trợ
+						chấm dứt triệu chứng hôi miệng, giải độc gan, giảm táo bón phục hồi hệ vi sinh đường ruột
+						chỉ sau 10 ngày sử dụng. Với cơ chế hoạt động của D-TOX 550 thì chỉ trong thời gian ngắn
+						chất lượng cuộc sống của bạn sẽ được cải thiện.
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12">
+					<div class="img-product" data-aos="fade-left" data-aos-duration="2000">
+						<img src="./img/d-tox550.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ingredients">
+		<div class="title" data-aos="zoom-in" data-aos-duration="2000">
+			<h3>Thành Phần D-TOX 550 Gồm Có Những Gì?</h3>
+		</div>
+		<div class="row">
+			<div class="row row-1 col-xl-12 col-lg-12 col-md-12 col-sm-6">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="detail-ingredients" data-aos="zoom-in" data-aos-duration="2000">
+						<div class="image">
+							<img src="./img/du-du.png">
+						</div>
+						<div class="name-ingredients">Chiết Xuất Đu Đủ</div>
+						<div class="text-ingredients">Đu đủ có tính hàn, cùng công dụng thanh nhiệt, kháng khuẩn, kháng
+							viêm, ức chế hoạt động của các loại vi khuẩn gây hại cho ruột như E Coli, Salmonella, tụ cầu
+							khuẩn…
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="detail-ingredients" data-aos="zoom-in" data-aos-duration="2000">
+						<div class="image">
+							<img src="./img/bi-ngo.png">
+						</div>
+						<div class="name-ingredients">Hạt Bí Ngô</div>
+						<div class="text-ingredients">Thành phần bí ngô giúp đào thải độc tố, thanh lọc cơ thể, tăng
+							cường hệ miễn dịch và giúp cải thiện sức khỏe của tim, gan, cải thiện khẩu vị, giấc ngủ,...
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="detail-ingredients" data-aos="zoom-in" data-aos-duration="2000">
+						<div class="image">
+							<img src="./img/tra-xanh.png">
+						</div>
+						<div class="name-ingredients">Chiết Xuất Trà Xanh</div>
+						<div class="text-ingredients">Trà xanh là thành phần chính giúp chống oxy hóa hiệu quả, hỗ trợ
+							kháng viêm, thanh lọc cơ thể, tăng cường chức năng tiêu hóa và giúp giảm hơi thở có mùi.
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row row-2 col-xl-12 col-lg-12 col-md-12 col-sm-6">
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="detail-ingredients" data-aos="zoom-in" data-aos-duration="2000">
+						<div class="image">
+							<img src="./img/quan-chung.png">
+						</div>
+						<div class="name-ingredients">Chiết Xuất Quán Chúng</div>
+						<div class="text-ingredients">Hỗ trợ loại bỏ hoàn toàn các loại ký sinh trùng cư trú trong đường
+							ruột, giúp thanh nhiệt, giải độc và cải thiện hệ miễn dịch hiệu quả.
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="detail-ingredients" data-aos="zoom-in" data-aos-duration="2000">
+						<div class="image">
+							<img src="./img/thun-mun.png">
+						</div>
+						<div class="name-ingredients">Chiết Xuất Thùn Mũn</div>
+						<div class="text-ingredients">Là thành phần giúp kháng viêm, sát trùng cho cơ thể, chống ký sinh
+							trùng tồn tại và phát triển ở thành ruột như giun đũa, giun kim, sán,...
+						</div>
+					</div>
+				</div>
+				<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12">
+					<div class="detail-ingredients" data-aos="zoom-in" data-aos-duration="2000">
+						<div class="image">
+							<img src="./img/gung.png">
+						</div>
+						<div class="name-ingredients">Chiết Xuất Gừng</div>
+						<div class="text-ingredients">Thanh lọc độc tố, hỗ trợ tiêu hóa và thúc đẩy quá trình trao đổi
+							chất, kháng viêm, tăng cường miễn dịch
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ingredients ingredients-mobile">
+		<div class="title">
+			<h3>Thành Phần D-TOX 550 Gồm Có Những Gì?</h3>
+		</div>
+		<div class="row">
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+				<div class="detail-ingredients" data-aos="fade-up" data-aos-duration="2000">
+					<img src="./img/du-du.png">
+					<div class="name-ingredients">Chiết Xuất Đu Đủ</div>
+					<div class="text-ingredients">Đu đủ có tính hàn, cùng công dụng thanh nhiệt, kháng khuẩn, kháng
+						viêm, ức chế hoạt động của các loại vi khuẩn gây hại cho ruột như E Coli, Salmonella, tụ cầu
+						khuẩn…
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+				<div class="detail-ingredients" data-aos="fade-up" data-aos-duration="2000">
+					<img src="./img/bi-ngo.png">
+					<div class="name-ingredients">Hạt Bí Ngô</div>
+					<div class="text-ingredients">Thành phần bí ngô giúp đào thải độc tố, thanh lọc cơ thể, tăng
+						cường hệ miễn dịch và giúp cải thiện sức khỏe của tim, gan, cải thiện khẩu vị, giấc ngủ,...
+					</div>
+				</div>
+			</div>
+			<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+				<div class="detail-ingredients" data-aos="fade-up" data-aos-duration="2000">
+					<img src="./img/tra-xanh.png">
+					<div class="name-ingredients">Chiết Xuất Trà Xanh</div>
+					<div class="text-ingredients">Trà xanh là thành phần chính giúp chống oxy hóa hiệu quả, hỗ trợ
+						kháng viêm, thanh lọc cơ thể, tăng cường chức năng tiêu hóa và giúp giảm hơi thở có mùi.
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+			<div class="detail-ingredients" data-aos="fade-up" data-aos-duration="2000">
+				<img src="./img/quan-chung.png">
+				<div class="name-ingredients">Chiết Xuất Quán Chúng</div>
+				<div class="text-ingredients">Hỗ trợ loại bỏ hoàn toàn các loại ký sinh trùng cư trú trong đường
+					ruột, giúp thanh nhiệt, giải độc và cải thiện hệ miễn dịch hiệu quả.
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+			<div class="detail-ingredients" data-aos="fade-up" data-aos-duration="2000">
+				<img src="./img/thun-mun.png">
+				<div class="name-ingredients">Chiết Xuất Thùn Mũn</div>
+				<div class="text-ingredients">Là thành phần giúp kháng viêm, sát trùng cho cơ thể, chống ký sinh
+					trùng tồn tại và phát triển ở thành ruột như giun đũa, giun kim, sán,...
+				</div>
+			</div>
+		</div>
+		<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 col-12">
+			<div class="detail-ingredients" data-aos="fade-up" data-aos-duration="2000">
+				<img src="./img/gung.png">
+				<div class="name-ingredients">Chiết Xuất Gừng</div>
+				<div class="text-ingredients">Thanh lọc độc tố, hỗ trợ tiêu hóa và thúc đẩy quá trình trao đổi
+					chất, kháng viêm, tăng cường miễn dịch
+				</div>
+			</div>
+		</div>
+		</div>
+		</div>
+	</section>
+	<section class="section-5">
+		<div class="title">
+			<h3>Lời Khuyên Từ Chuyên Gia Về D-TOX 550</h3>
+		</div>
+		<div class="row">
+			<div class="col-xl-7 col-lg-7 col-md-12">
+				<div class="text">
+					<p>
+						Là bác sĩ chuyên khoa tiêu hóa trên 30 năm, tôi đã chứng kiến và trực tiếp tiếp nhận nhiều ca bị
+						nhiễm ký sinh dẫn đến những vấn đề về tiêu hóa, thậm chí là di căn lên não nguy hiểm đến tính
+						mạng.
+					</p>
+					<br />
+					<p>
+						Thực tế cho thấy bệnh về đường tiêu hóa đang ngày càng tăng cao và xuất hiện ở mọi lứa tuổi.
+						Điều này khiến cho việc kiểm soát và bảo vệ sức khỏe trở nên khó khăn hơn. Bởi lẽ bất cứ ai
+						trong chúng ta đều có nguy cơ gặp vấn đề về sức khỏe này tùy theo mức độ nhẹ hay nặng. Điều cần
+						làm bây giờ là dùng những sản phẩm hỗ trợ loại bỏ ký sinh trong cơ thể
+						Để mọi người không phải mất thời gian tìm kiếm và chọn những sản phẩm giả mạo, tôi xin giới
+						thiệu một sản phẩm giúp loại trừ ký sinh, phục hồi hệ vi sinh đường ruột, hạn chế mùi hôi từ
+						miệng, bảo vệ sức khỏe có tên là D-TOX 550. Sản phẩm được điều chế dạng viên sủi thích hợp để
+						đem theo và sử dụng.
+					</p>
+					<br />
+					<p>
+						Một lần nữa, tôi khuyên mọi người nên quan tâm đến sức khỏe của mình, xây dựng chế độ dinh
+						dưỡng, lối sống lành mạnh, tẩy giun sán định kỳ 1 năm 2 lần và đặt mua ngay D-TOX 550 để có một
+						cơ thể khỏe mạnh, ăn ngon, ngủ sâu.
+					</p>
+				</div>
+			</div>
+			<div class="col-xl-5 col-lg-5 col-md-12">
+				<div class="doctor">
+					<img src="./img/expert.png" />
+				</div>
+				<p class="doctor-name">Chuyên gia về Ký sinh trùng học <br> Nguyễn Khắc Minh Toàn</p>
+			</div>
+		</div>
+	</section>
+	<section class="section-6" data-aos="fade-up" data-aos-duration="2000">
+		<div class="title">
+			<h3>DTOX-550</h3>
+			<p>
+				Đừng chỉ lắng nghe chúng tôi, hãy kiểm tra những gì khách hàng đang
+				nói!
+			</p>
+		</div>
+		<div class="review owl-carousel owl-theme">
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/ha-tam.jpg" />
+				</div>
+				<div class="text">
+					<p>
+						Tình cờ đang lướt xem thông tin thì bắt gặp D-TOX 550 với những hiệu quả mà tôi đang cần. Không
+						suy nghĩ mà tôi đặt mua ngay, đến giờ cũng hơn 10 ngày sử dụng rồi, cơ thể khỏe khoắn hơn hẳn,
+						có cảm giác thèm ăn và ngủ cũng sâu giấc hơn.
+					</p>
+					<h6>Hà Tâm, TPHCM</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/hung-pham.png" />
+				</div>
+				<div class="text">
+					<p>
+						Phát hiện mình bị hôi miệng cứ tưởng là sâu răng mà thôi nào ngờ đi khám thì phát hiện ra bị
+						viêm ruột. Tôi hoang mang lắm, cứ nghĩ bệnh sẽ khó chữa khỏi nhưng từ khi biết đến D-TOX 550,
+						cuộc sống tôi như mở sang trang khác. Thật hiệu quả!
+					</p>
+					<h6>Hưng Phạm, Hà Nội</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/khanh-ly.jpg" />
+				</div>
+				<div class="text">
+					<p>
+						Hệ tiêu hóa của mẹ tôi vốn yếu và điều này ảnh hưởng rất nhiều đến cuộc sống hàng ngày. Tôi tìm
+						hiểu khắp các diễn đàn sức khỏe thì biết đến D-TOX 550, tôi đặt mua cho mẹ xem sao. Chỉ hơn 1
+						tuần dùng mà bà ấy đã khỏe mạnh hơn, sắc mặt tươi tắn, tiêu hóa trơn tru hơn hẳn.
+					</p>
+					<h6>Khánh Ly, Đà Nẵng</h6>
+				</div>
+			</div>
+			<div class="item item">
+				<div class="item-img">
+					<img src="./img/my-loi.jpg" />
+				</div>
+				<div class="text">
+					<p>
+						Căn bệnh hôi miệng đã làm tôi mất tự tin rất nhiều trong các mối quan hệ. Tôi đã dùng qua khá
+						nhiều phương pháp, từ nahi kẹo cho đến xịt thuốc nhưng đều vô ích. May mắn tôi phát hiện ra
+						D-TOX 550, thật sự tôi quá biết ơn người sản xuất ra nó. Vô cùng hiệu quả!
+					</p>
+					<h6>Mỹ Lợi, Kiên Giang</h6>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="video">
+		<div class="card">
+			<div class="card-img-top">
+				<iframe width="100%" height="100%" src="https://www.youtube.com/embed/dlm4tO6lm3k" frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="card-body">
+				<h5 class="card-title">Phản hồi sau khi dùng D-TOX 550</h5>
+				<div class="card-text">
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+						tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+					</p>
+					<br>
+					<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+						takimata
+						sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing.
+					</p>
+					<br>
+					<p>Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum
+						dolor
+						sit amet, consetetur sadipscing
+					</p>
+				</div>
+				<h6>Minh Hải, TPHCM</h6>
+			</div>
+		</div>
+	</section>
+	<section id="section-7" class="section-7 row">
+		<div class="col-xl-5 offset-xl-1 col-lg-5 offset-lg-1 col-md-12 col-12">
+			<div class="img" data-aos="zoom-in-down" data-aos-duration="1500">
+				<img src="./img/d-tox550-01.jpg" />
+			</div>
+		</div>
+		<div class="col-xl-6 col-lg-6 col-md-12 col-12">
+			<div id="forms" class="form">
+				<h6>#Giảm giá 50%</h6>
+				<div class="sale row">
+					<div class="left">
+						<p>1.180.000 đ</p>
+						<p>Giá chỉ còn</p>
+					</div>
+					<div class="right">
+						<p>590.000 đ</p>
+					</div>
+				</div>
+				<form>
+					<input type="text" name="name" placeholder="*Tên của bạn" required autocomplete="off" />
+					<input type="text" name="phone" placeholder="*Số điện thoại" required autocomplete="off"
+						minlength="9" maxlength="10" onkeypress="validate(event)" />
+					<button type="submit">Đặt hàng</button>
+				</form>
+			</div>
+		</div>
+	</section>
+	<div class="console-container">
+		<span id="text" style="color:#292929"></span>
+	</div>
+	<footer class="row">
+		<div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/logo.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+			<div class="mid">
+				<h6>Liên hệ</h6>
+				<a href="tel:02873070789">
+					<div class="mid-item row">
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p>02873070789</p>
+					</div>
+				</a>
+				<a href="mailto:ecom@soji.asia" class="mid-item row">
+					<span><i class="fas fa-envelope"></i></span>
+					<p>ecom@soji.asia</p>
+				</a>
+				<a href="https://dtox550.vn/" class="mid-item row">
+					<span><i class="fas fa-globe-asia"></i></span>
+					<p>https://dtox550.vn/</p>
+				</a>
+				<a href="" class="disabled">
+					<div class="mid-item row">
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+					</div>
+				</a>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+			<div class="right row justify-content-between mt-3-md">
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Kết nối với chúng tôi</h6>
+					<div class="social row">
+						<a href="">
+							<img src="./img/facebook.svg" />
+						</a>
+						<a href="">
+							<img src="./img/youtube.svg" />
+						</a>
+						<a href="">
+							<img src="./img/instagram.svg" />
+						</a>
+						<a href="">
+							<img src="./img/twitter.svg" />
+						</a>
+						<a href="">
+							<img src="./img/whatsapp.svg" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Tải mobile apps</h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<a href="">
+								<img src="./img/google-play.png" />
+							</a>
+							<a href="">
+								<img src="./img/app-store.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/owl.carousel.min.js"></script>
+	<script src="./js/aos.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		new AOS.init();
+		$(document).ready(function () {
+			$(".review").owlCarousel({
+				dots: true,
+				loop: false,
+				responsive: {
+					0: { items: 1 },
+					577: { items: 2 },
+					1025: { items: 2 },
+					1440: { items: 3 },
+					1920: { items: 3 },
+				},
+			});
+
+		});
+		if ($(window).width() < 576) {
+			$(".process-item").addClass("owl-carousel owl-theme");
+			$(document).ready(function () {
+				$(".process-item").owlCarousel({
+					loop: true, autoplay: true, autoplayTimeout: 4000, dots: false, nav: true, smartSpeed: 1500, autoplayHoverPause: true,
+					responsive: { 0: { items: 1 }, 421: { items: 1 }, },
+				});
+			});
+		};
+	</script>
+</body>
+
+</html>

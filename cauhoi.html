@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>D-TOX 550</title>
+	<link rel="icon" type="image/png" href="./img/product.png">
+	<link rel="stylesheet" href="./css/bootstrap.css" />
+	<link rel="stylesheet" href="./css/all.min.css" />
+	<link rel="stylesheet" href="./css/main.css" />
+	<link rel="stylesheet" href="./css/responsive.css" />
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<a class="navbar-brand logo" href="./index.html">
+			<img src="./img/logo.png" />
+		</a>
+		<div class="d-flex align-items-center">
+			<div class="dropdown dropdown-mobile">
+				<a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+					aria-expanded="false">
+					<img src="./img/vietnam-flag.png" />
+				</a>
+				<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/vietnam-flag.png" />
+							<span>Tiếng Việt</span>
+						</a>
+					</li>
+					<li>
+						<a class="dropdown-item" href="#">
+							<img src="./img/japan-flag.png" />
+							<span>Tiếng Đức</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-bars text-dark"></i>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav m-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="./index.html">TRANG CHỦ</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./gioithieu.html">GIỚI THIỆU</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+				</li>
+				<a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+					data-target="#exampleModal">Khuyến mãi</a>
+				<li class="dathang-2">
+					<a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Khuyến mãi</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+						data-toggle="dropdown" aria-expanded="false">
+						<img src="./img/vietnam-flag.png" />
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/vietnam-flag.png" />
+								<span>Tiếng Việt</span>
+							</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">
+								<img src="./img/japan-flag.png" />
+								<span>Tiếng Đức</span>
+							</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+				aria-label="Toggle navigation">
+				<i class="fas fa-times text-white"></i>
+			</button>
+		</div>
+		<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			<div class="modal-dialog section-7">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">
+							Đặt hàng chính hãng
+						</h5>
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div id="forms" class="form modal-body">
+						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+						<h6>#Giảm giá 50%</h6>
+						<div class="sale row">
+							<div class="left">
+								<p>1.180.000 đ</p>
+								<p>Giá chỉ còn</p>
+							</div>
+							<div class="right">
+								<p>590.000 đ</p>
+							</div>
+						</div>
+						<form action="">
+							<input type="text" name="name" placeholder="*Tên của bạn" />
+							<input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+							<button type="submit">Đặt hàng</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<section class="cauhoi-top">
+		<div class="title">
+			<h2>
+				VIÊN SỦI D-TOX 550 <br />
+				GIẢI PHÁP TOÀN DIỆN CHO ĐƯỜNG RUỘT
+			</h2>
+		</div>
+		<div class="fact row">
+			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+				<div class="fact-item fact-item-1">
+					<p>
+						<span>#1</span>Viên sủi D-TOX 550 đã được nghiên cứu lâm sàng dựa trên giải pháp tối ưu từ Nhật
+						Bản có công dụng tiêu diệt các loại ký sinh ẩn náu trong cơ thể, hỗ trợ điều trị các vấn đề liên
+						quan đến hệ tiêu hóa.
+					</p>
+				</div>
+			</div>
+			<div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12">
+				<div class="fact-item fact-item-2">
+					<p>
+						<span>#2</span>Sản phẩm diệt ký sinh trùng này được điều chế hoàn toàn từ thiên nhiên và được
+						cấp chứng nhận an toàn về thực phẩm nên người dùng có thể yên tâm sử dụng mà không gây ra bất kỳ
+						phản ứng phụ nào.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="ask">
+		<div id="accordionExample">
+			<div class="One">
+				<div class="ask-item question collapsed hienthi" data-toggle="collapse" data-target="#collapseOne"
+					aria-expanded="true" aria-controls="collapseOne" id="headingOne" style="--transform: rotate(90deg)">
+					<p>
+						Nửa tháng trước, tôi bị chẩn đoán là có ký sinh trùng trong cơ thể. Tôi đã sử dụng D-TOX 550
+						được khoảng 1 tháng thì nhận thấy cơ thể khỏe khoắn hẳn ra, miệng cũng không còn mùi hôi, đã
+						biết cảm giác ăn ngon. Vậy cho tôi hỏi tôi có cần phải sử dụng sản phẩm nữa hay không?
+					</p>
+					<h6>(Trần Minh Hải, TPHCM)</h6>
+				</div>
+				<div class="answer collapse show" id="collapseOne" class="collapse" aria-labelledby="headingOne"
+					data-parent="#headingOne">
+					<p>
+						Chào Hải, như thông tin bạn đã cung cấp thì có thể sản phẩm đã phát huy công dụng và cơ thể bạn
+						đã khỏi hẳn triệu chứng của ký sinh rồi. Tuy nhiên thì D-TOX 550 chính là sản phẩm bên cạnh có
+						công dụng tiêu diệt ký sinh thì còn giúp bảo vệ hệ tiêu hóa và thanh lọc cơ thể nữa. Do đó nếu
+						muốn cơ thể luôn khỏe mạnh, thì bạn có thể sử dụng sản phẩm mỗi ngày cũng được nhé!
+					</p>
+				</div>
+			</div>
+			<div class="Two">
+				<div class="ask-item question" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+					aria-controls="collapseTwo" id="headingTwo">
+					<p>
+						Xin chào! Hiện tại tôi có những dấu hiệu như sau: da bị dị ứng ngứa ngáy, dễ mắc bệnh xoàng, ăn
+						không ngon, hay bị táo bón và hơi thở có mùi. Cho tôi hỏi có phải tôi đã bị bệnh về đường tiêu
+						hóa đúng không?
+					</p>
+					<h6>(Lâm Lê Ánh Vân, Hà Nội)</h6>
+				</div>
+				<div class="answer" id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+					data-parent="#headingTwo">
+					<p>
+						Chào cô Vân, với những triệu chứng mà cô đang có thì khả năng cao là cô đang mắc phảo bệnh tiêu
+						hóa và và bị ký sinh cư trú trong cơ thể rồi. Để chắc chắn hơn cô có thể đến bác sĩ chuyên khoa
+						và tìm ra căn bệnh. Bên cạnh đó thì cô có thể sử dụng D-TOX 550 để đẩy lùi ký sinh và giúp hạn
+						chế những vấn đề về tiêu hóa. Song song đó, cô hãy tẩy giun sán định kỳ 2 lần mỗi năm cô nhé!
+					</p>
+				</div>
+			</div>
+			<div class="Three">
+				<div class="ask-item question" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true"
+					aria-controls="collapseThree" id="headingThree">
+					<p>
+						Tôi đã sống với chứng hôi miệng gần 3 năm trời và tôi thật sự đã quá bất lực. Theo tôi được biết
+						thì ký sinh cũng là nguyên nhân hình thành tình trạng này đúng không? Và điều tôi cần làm lúc
+						này là gì, xin hãy tư vấn cho tôi!
+					</p>
+					<h6>(Hà Thanh Thảo, Hải Phòng)</h6>
+				</div>
+				<div class="answer" id="collapseThree" class="collapse" aria-labelledby="headingThree"
+					data-parent="#headingThree">
+					<p>
+						Chào chị Thảo! Đúng là ký sinh chính là một trong những nguyên nhân làm cho con người bị hôi
+						miệng. Chị có thể sử dụng D-TOX 550 để cải thiện tình trạng này nhé! Với chiết xuất từ những
+						thành phần tự nhiên, sản phẩm giúp giảm hôi miệng, loại trừ triệt để ký sinh và hỗ trợ điều trị
+						các vấn đề tiêu hóa. Bên cạnh đó thì chị hãy chăm sóc răng miệng thật tốt và khám định kỳ để hạn
+						chế tình trạng tiếp diễn nữa nhé!
+					</p>
+				</div>
+			</div>
+			<div class="Four">
+				<div class="ask-item question" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true"
+					aria-controls="collapseFour" id="headingFour">
+					<p>
+						Bố tôi bị nhiễm sán giun từ vật nuôi trong nhà, vậy D-TOX 550 có thể chữa dứt tình trạng này
+						không ạ vì ông ấy không chịu đi tái khám ở bệnh viện nữa! Giúp tôi với!
+					</p>
+					<h6>(Nguyễn Quốc Bảo, Đà Nẵng)</h6>
+				</div>
+				<div class="answer" id="collapseFour" class="collapse" aria-labelledby="headingFour"
+					data-parent="#headingFour">
+					<p>
+						Chào anh Bảo! Điều anh cần làm lúc này là khuyên bác đến cơ sở y tế để tái khám đi ạ! Vì nếu để
+						lâu thì vấn đề sẽ nguy hiểm đến sức khỏe mà chúng ta không thể lường trước được. Ngoài ra thì
+						chỉ có nơi đó mới có đầy đủ dụng cụ, phương pháp chữa dứt vấn đề này.
+						D-TOX 550 chỉ có tác dụng hỗ trợ tiêu diệt ký sinh chứ không có tác dụng thay thế hoàn toàn
+						thuốc chữa bệnh. Gửi đến anh thông tin ạ! Chúc bác mau khỏi!
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="row">
+		<div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+			<div class="left">
+				<a href="./index.html">
+					<img src="./img/logo.png" />
+				</a>
+				<p>
+					Phân phối độc quyền bởi<br />
+					Công ty TNHH Soji Labs
+				</p>
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+			<div class="mid">
+				<h6>Liên hệ</h6>
+				<a href="tel:02873070789">
+					<div class="mid-item row">
+						<span><i class="fas fa-phone-alt"></i></span>
+						<p>02873070789</p>
+					</div>
+				</a>
+				<a href="mailto:ecom@soji.asia" class="mid-item row">
+					<span><i class="fas fa-envelope"></i></span>
+					<p>ecom@soji.asia</p>
+				</a>
+				<a href="https://dtox550.vn/" class="mid-item row">
+					<span><i class="fas fa-globe-asia"></i></span>
+					<p>https://dtox550.vn/</p>
+				</a>
+				<a href="" class="disabled">
+					<div class="mid-item row">
+						<span><i class="fas fa-map-marker-alt"></i></span>
+						<p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+					</div>
+				</a>
+
+			</div>
+		</div>
+		<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+			<div class="right row justify-content-between mt-3-md">
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Kết nối với chúng tôi</h6>
+					<div class="social row">
+						<a href="">
+							<img src="./img/facebook.svg" />
+						</a>
+						<a href="">
+							<img src="./img/youtube.svg" />
+						</a>
+						<a href="">
+							<img src="./img/instagram.svg" />
+						</a>
+						<a href="">
+							<img src="./img/twitter.svg" />
+						</a>
+						<a href="">
+							<img src="./img/whatsapp.svg" />
+						</a>
+					</div>
+				</div>
+				<div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+					<h6>Tải mobile apps</h6>
+					<div class="app row">
+						<img src="./img/QR-code.png" />
+						<div class="store">
+							<a href="">
+								<img src="./img/google-play.png" />
+							</a>
+							<a href="">
+								<img src="./img/app-store.png" />
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="./js/jquery.min.js"></script>
+	<script src="./js/bootstrap.js"></script>
+	<script src="./js/main.js"></script>
+	<script>
+		var aq = document.getElementsByClassName("ask-item question");
+		for (let i = 0; i < aq.length; i++) {
+			aq[i].onclick = function () {
+				if (Boolean(aq[i].classList.contains("hienthi")) == true) {
+					aq[i].classList.remove("hienthi");
+					aq[i].style.setProperty("--transform", "rotate(0)");
+				} else {
+					aq[i].classList.add("hienthi");
+					aq[i].style.setProperty("--transform", "rotate(90deg)");
+				}
+			};
+		}
+	</script>
+</body>
+
+</html>

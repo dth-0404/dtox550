@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>D-TOX 550</title>
+   <link rel="icon" type="image/png" href="./img/product.png">
+   <link rel="stylesheet" href="./css/bootstrap.css" />
+   <link rel="stylesheet" href="./css/all.min.css" />
+   <link rel="stylesheet" href="./css/main.css" />
+   <link rel="stylesheet" href="./css/responsive.css">
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo" href="./index.html">
+         <img src="./img/logo.png" />
+      </a>
+      <div class="d-flex align-items-center">
+         <div class="dropdown dropdown-mobile">
+            <a class="dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+               aria-expanded="false">
+               <img src="./img/vietnam-flag.png" />
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+               <li>
+                  <a class="dropdown-item" href="#">
+                     <img src="./img/vietnam-flag.png" />
+                     <span>Tiếng Việt</span>
+                  </a>
+               </li>
+               <li>
+                  <a class="dropdown-item" href="#">
+                     <img src="./img/japan-flag.png" />
+                     <span>Tiếng Đức</span>
+                  </a>
+               </li>
+            </ul>
+         </div>
+         <button id="default" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-bars text-dark"></i>
+         </button>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav m-auto">
+            <li class="nav-item">
+               <a class="nav-link" href="./index.html">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link active" href="./gioithieu.html">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./cauhoi.html">CÂU HỎI THƯỜNG GẶP</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./blog.html">KIẾN THỨC SỨC KHỎE</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" href="./lienhe.html">LIÊN HỆ</a>
+            </li>
+            <a href="" type="button" id="dathang-1" class="dathang" data-toggle="modal"
+               data-target="#exampleModal">Khuyến mãi</a>
+            <li class="dathang-2">
+               <a href="" id="dathang-2" data-toggle="modal" data-target="#exampleModal">Khuyến mãi</a>
+            </li>
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-expanded="false">
+                  <img src="./img/vietnam-flag.png" />
+               </a>
+               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                     <a class="dropdown-item" href="#">
+                        <img src="./img/vietnam-flag.png" />
+                        <span>Tiếng Việt</span>
+                     </a>
+                  </li>
+                  <li>
+                     <a class="dropdown-item" href="#">
+                        <img src="./img/japan-flag.png" />
+                        <span>Tiếng Đức</span>
+                     </a>
+                  </li>
+               </ul>
+            </li>
+         </ul>
+         <button id="shown" class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <i class="fas fa-times text-white"></i>
+         </button>
+      </div>
+      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+         <div class="modal-dialog section-7">
+            <div class="modal-content">
+               <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">
+                     Đặt hàng chính hãng
+                  </h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+               </div>
+               <div id="forms" class="form modal-body">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                     <span aria-hidden="true">&times;</span>
+                  </button>
+                  <h6>#Giảm giá 50%</h6>
+                  <div class="sale row">
+                     <div class="left">
+                        <p>1.180.000 đ</p>
+                        <p>Giá chỉ còn</p>
+                     </div>
+                     <div class="right">
+                        <p>590.000 đ</p>
+                     </div>
+                  </div>
+                  <form action="">
+                     <input type="text" name="name" placeholder="*Tên của bạn" />
+                     <input type="text" name="phone" placeholder="*Số điện thoại" onkeypress="validate(event)" />
+                     <button type="submit">Đặt hàng</button>
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div>
+   </nav>
+   <section class="banner">
+      <div class="row align-items-center">
+         <div class="col-xl-5 col-lg-5 col-md-5 col-sm-12 col-12">
+            <div class="img-banner">
+               <img src="./img/img-banner.png">
+            </div>
+         </div>
+         <div class="col-xl-7 col-lg-7 col-md-7 col-sm-12 col-12">
+            <div class="title-banner title">
+               <h3>Những Vấn Đề Thường Gặp Về Đường Ruột</h3>
+            </div>
+            <p>
+               Những năm gần đây thì các căn bệnh về hệ tiêu hóa đang ngày càng phổ biến và không loại trừ lứa
+               tuổi, giới tính, nghề nghiệp nào cả. Bệnh không những tác động đến sức khỏe người bệnh mà còn
+               làm ảnh hưởng đến sinh hoạt hàng ngày.
+               <br><br>
+               Hệ tiêu hóa của chúng ta bao gồm những bộ phận sau đây: dạ dày, thực quản, ruột non, ruột già,
+               hậu môn, gan, túi mật,... Nếu chúng gặp vấn đề tổn thương nào đó thì con người sẽ mắc phải những
+               căn bệnh liên quan mật thiết đến đường tiêu hóa như: viêm loét, rối loạn, trào ngược, viêm đại
+               tràng, bệnh trĩ,...
+            </p>
+            <button type="button" class="see-more">Xem thêm</button>
+         </div>
+      </div>
+   </section>
+   <section class="section-5 gioithieu">
+      <div class="title">
+         <h3>Lời Khuyên Từ Chuyên Gia Về D-TOX 550</h3>
+      </div>
+      <div class="row">
+         <div class="col-xl-7 col-lg-7">
+            <div class="text">
+               <p>
+                  Là bác sĩ chuyên khoa tiêu hóa trên 30 năm, tôi đã chứng kiến và trực tiếp tiếp nhận nhiều ca bị nhiễm
+                  ký sinh dẫn đến những vấn đề về tiêu hóa, thậm chí là di căn lên não nguy hiểm đến tính
+                  mạng.
+               </p>
+               <br />
+               <p>
+                  Thực tế cho thấy bệnh về đường tiêu hóa đang ngày càng tăng cao và xuất hiện ở mọi lứa tuổi.
+                  Điều này khiến cho việc kiểm soát và bảo vệ sức khỏe trở nên khó khăn hơn. Bởi lẽ bất cứ ai
+                  trong chúng ta đều có nguy cơ gặp vấn đề về sức khỏe này tùy theo mức độ nhẹ hay nặng. Điều cần làm
+                  bây giờ là dùng những sản phẩm hỗ trợ loại bỏ ký sinh trong cơ thể Để mọi người không phải mất thời
+                  gian tìm kiếm và chọn những sản phẩm giả mạo, tôi xin giới
+                  thiệu một sản phẩm giúp loại trừ ký sinh, phục hồi hệ vi sinh đường ruột, hạn chế mùi hôi từ
+                  miệng, bảo vệ sức khỏe có tên là D-TOX 550. Sản phẩm được điều chế dạng viên sủi thích hợp để
+                  đem theo và sử dụng.
+               </p>
+               <br />
+               <p>
+                  Một lần nữa, tôi khuyên mọi người nên quan tâm đến sức khỏe của mình, xây dựng chế độ dinh
+                  dưỡng, lối sống lành mạnh, tẩy giun sán định kỳ 1 năm 2 lần và đặt mua ngay D-TOX 550 để có một cơ thể
+                  khỏe mạnh, ăn ngon, ngủ sâu.
+               </p>
+            </div>
+         </div>
+         <div class="col-xl-5 col-lg-5">
+            <div class=" doctor">
+               <img src="./img/expert.png" />
+            </div>
+            <p class="doctor-name">Chuyên gia về Ký sinh trùng học <br> Nguyễn Khắc Minh Toàn</p>
+         </div>
+      </div>
+   </section>
+   <footer class="row">
+      <div class="col-xxl-4 col-xl-4 col-lg-3 col-md-6 col-12">
+         <div class="left">
+            <a href="./index.html">
+               <img src="./img/logo.png" />
+            </a>
+            <p>
+               Phân phối độc quyền bởi<br />
+               Công ty TNHH Soji Labs
+            </p>
+         </div>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-5 col-md-6 col-12">
+         <div class="mid">
+            <h6>Liên hệ</h6>
+            <a href="tel:02873070789">
+               <div class="mid-item row">
+                  <span><i class="fas fa-phone-alt"></i></span>
+                  <p>02873070789</p>
+               </div>
+            </a>
+            <a href="mailto:ecom@soji.asia" class="mid-item row">
+               <span><i class="fas fa-envelope"></i></span>
+               <p>ecom@soji.asia</p>
+            </a>
+            <a href="https://dtox550.vn/" class="mid-item row">
+               <span><i class="fas fa-globe-asia"></i></span>
+               <p>https://dtox550.vn/</p>
+            </a>
+            <a href="" class="disabled">
+               <div class="mid-item row">
+                  <span><i class="fas fa-map-marker-alt"></i></span>
+                  <p>199 Điện Biên Phủ, P.15, Q.Bình Thạnh</p>
+               </div>
+            </a>
+         </div>
+      </div>
+      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-12">
+         <div class="right row justify-content-between mt-3-md">
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+               <h6>Kết nối với chúng tôi</h6>
+               <div class="social row">
+                  <a href="">
+                     <img src="./img/facebook.svg" />
+                  </a>
+                  <a href="">
+                     <img src="./img/youtube.svg" />
+                  </a>
+                  <a href="">
+                     <img src="./img/instagram.svg" />
+                  </a>
+                  <a href="">
+                     <img src="./img/twitter.svg" />
+                  </a>
+                  <a href="">
+                     <img src="./img/whatsapp.svg" />
+                  </a>
+               </div>
+            </div>
+            <div class="col-xxl-12 col-xl-12 col-lg-12 col-md-6 col-12">
+               <h6>Tải mobile apps</h6>
+               <div class="app row">
+                  <img src="./img/QR-code.png" />
+                  <div class="store">
+                     <a href="">
+                        <img src="./img/google-play.png" />
+                     </a>
+                     <a href="">
+                        <img src="./img/app-store.png" />
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="./js/jquery.min.js"></script>
+   <script src="./js/bootstrap.js"></script>
+   <script src="./js/main.js"></script>
+</body>
+
+</html>
